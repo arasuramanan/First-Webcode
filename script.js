@@ -50,14 +50,16 @@ const searchInput = document.querySelector('.search-bar');
 const searchBtn = document.querySelector('.search-btn');
 var input = document.getElementById("myInput");
 
-let searchLink = "https://www.youtube.com/results?search_query=";
-let searchLink1 = "https://www.youtube.com/@madangowri";
-let searchLink2 = "https://www.youtube.com/results?search_query=";
-let searchLink4 = "https://www.youtube.com/results?search_query=";
-let searchLink5 = "https://www.youtube.com/results?search_query=";
-let searchLink6 = "https://www.youtube.com/results?search_query=";
-let searchLink7 = "https://www.youtube.com/results?search_query=";
-let searchLink8 = "https://www.youtube.com/results?search_query=";
+
+
+let searchLink = "https://www.youtube.com/results?search_query=master+video+songs";
+let searchLink1 = "https://www.youtube.com/results?search_query=irctc+train+";
+let searchLink2 = "https://www.youtube.com/results?search_query=master+video+songs";
+let searchLink4 = "https://www.youtube.com/results?search_query=master+video+songs";
+let searchLink5 = "https://www.youtube.com/results?search_query=master+video+songs";
+let searchLink6 = "https://www.youtube.com/results?search_query=master+video+songs";
+let searchLink7 = "https://www.youtube.com/results?search_query=master+video+songs";
+let searchLink8 = "https://www.youtube.com/results?search_query=master+video+songs";
 
 searchBtn.addEventListener('click', () => {
     if(searchInput.value.length){
